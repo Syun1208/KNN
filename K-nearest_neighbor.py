@@ -79,7 +79,7 @@ if __name__ == "__main__":
     x = np.append(x0, x1)
     x = x.reshape(20, 2)
     # x_point = np.random.randint(50, size=(10, 2))
-    x_point = [int(input(f'Input the {i+1} number: ')) for i in range(0, 2)]
+    x_point = [int(input(f'Input the {i+1} number of K point: ')) for i in range(0, 2)]
     K = int(input('Input K: '))
     # KNN_0 = KNearestNeighbor(x0, x_point, K)
     # minimal_distances_0 = KNN_0.finding_nearest_distances()
