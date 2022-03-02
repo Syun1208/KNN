@@ -96,7 +96,7 @@ if __name__ == "__main__":
     print('The {} nearest distances are {}'.format(K, new_list))
     mini_coordinate = KNN.seeking_the_mini_coordinates()
     print(f"The minimal coordinates are {mini_coordinate}")
-    for i in range(0, 9):
+    for i in range(0, 10):
         for j in range(0, 1):
             plt.plot(x0[i][j], x0[i][j + 1], 'g^')
             plt.plot(x1[i][j], x1[i][j + 1], 'bD')
